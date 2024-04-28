@@ -1,0 +1,45 @@
+.link-menu {
+    display: block;
+    padding: .5rem 1rem;
+    padding-left: 7rem;
+    color: rgb(232, 26, 26);
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#nav-bg {
+    background-color: black;
+}
+
+.link-menu:hover {
+
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    color: black !important;
+}
+
+/* a:hover{
+  
+} */
+
+/* .nav-header .active {
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+} */
+
+.navigation {
+    height: 80px;
+    ;
+}
+
+@media only screen and (max-width: 600px) {
+    .link-menu {
+        color: black;
+        background: white;
+    }
+
+}

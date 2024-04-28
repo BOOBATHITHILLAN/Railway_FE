@@ -1,0 +1,75 @@
+.login-body {
+    background-image: url('./assets/trial.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+
+}
+
+.login-container {
+    height: 100%;
+    align-content: center;
+}
+
+.login-card {
+    height: 500px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+
+.login-card-header h3 {
+    color: white;
+}
+
+.login-input-group span {
+    width: 50px;
+    background-color: #FFC312;
+    padding: 10px;
+    align-content: center;
+    color: black;
+    border: 0 !important;
+    margin: 10px;
+}
+
+.login-input:focus {
+
+    outline: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
+
+}
+
+.login-input {
+    height: 50px;
+}
+
+.error {
+    color: white;
+    text-align: center;
+}
+
+.login_btn {
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+    align-items: center;
+    align-content: center;
+    margin-left: 40%;
+    margin-top: 50px;
+}
+
+.login_btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.links {
+    color: white;
+}
+
+.links a {
+    margin-left: 4px;
+}
