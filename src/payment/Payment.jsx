@@ -20,6 +20,8 @@ function Payment({ BASE_URL }) {
     const handlepay = async (event) => {
         event.preventDefault();
         setpayment("payment success")
+        alert("payment success")
+        navigate('/booked')
         const headers = {
             headers: { "authorization": `${token}` }
         }
